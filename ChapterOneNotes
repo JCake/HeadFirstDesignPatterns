@@ -1,0 +1,53 @@
+Good Summary Info on page 32:
+OO Basics:
+* Abstraction
+* Encapsulation
+* Polymorphism
+* Inheritance
+
+OO Principles:
+* Encapsulate what varies
+* Favor composition over inheritance
+* Program to interfaces, not implementations
+
+OO Pattern:
+* Strategy:  defines a family of algorithms, encapsulates each one, and makes them interchangable
+Strategy lets the algorithm vary independently from clients that use it.
+
+Bullet Points:
+* Knowing the OO basics does not make you a good OO designer
+* Good OO designs are reusable, extensible, and maintainable
+* Patterns are proven object-oriented experience
+* Patterns don't give you code, they give you general solutions to design problems.  You apply them to your specific application
+* Patterns aren't invented, they are discovered. -- DO YOU AGREE OR DISAGREE?
+* Most patterns address issues of change in software. -- THINK ABOUT WHY THIS MAKES THEM SO USEFUL. (change is constant)
+* Most patterns allow some part of a system to vary independently of all other parts.
+* We often try to take what varies in a system and encapsulate it -- THINK ABOUT WHY; EXAMPLES FROM WORK?
+* Patterns provide a shared language that can maximize the value of your communication with other developers
+  -- ** TO CONSIDER:  How true is this?  How important is this?  What happens if others don't know patterns?
+  -- Look at page 28, the power of a shared vocabulary - do we all agree with all of this?  Does talking in design patterns cause more or less confusion in practice?
+  
+Good quote on page 23: Creating systems using composition gives you a lot more flexibility.
+Not only does it let you encapsulate a family of algorithms into their own set of classes,
+but it also lets you change behavior at runtime as long as the object you're composing with implements the correct behavior interface
+
+Exercises:
+* P. 5:  Sharpen Your Pencil - disadvantages to using inheritance
+* P. 8:  Sharpent Your Pencil - List some reasons you've had to change code in your applications.  (Could the strategy pattern have helped in any of those situations?)
+
+Questions to consider:
+* How would you have thought to design the Duck Sim program?
+* Who has used the strategy pattern before?  Specific examples?
+* Could it be dangerous to change our duck's fly and quack behavior at runtime?  Can't we create a duck of a particular type that doesn't really behave like that type?
+
+My Additional thoughts
+OO Basics = what you can do
+OO Principles = what you should do
+OO Patterns = Specific recipes for what you should do in certain situations
+Use patterns when you can.  Lean on principles when you can't.
+**Consider the "Skeptical Developer" on pages 30-31 -- "Strategy" does seem mostly like an application of good OO design to me.
+
+From page 23:  "Is more time spent on code before or after development is complete?"  "The answer is after"
+* How have you seen this in your own job?
+* What is meant by "development is complete" - is it ever really complete?
+* Maybe the point is that development is ongoing and that's why we need to use patterns that make change easier (like strategy)
